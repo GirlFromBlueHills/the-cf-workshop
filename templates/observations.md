@@ -1,0 +1,2 @@
+- Using change sets to review proposed stack updates 
+- Using `Conditions` to customise the stack by environment

@@ -1,0 +1,32 @@
+[
+  {
+    "ParameterKey": "RepositoryName",
+    "ParameterValue": "the-cf-workshop"
+    // replace with the name of the repository on Github containing the templates to deploy
+  },
+  {
+    "ParameterKey": "RepositoryOwner",
+    "ParameterValue": "GirlFromBlueHills"
+    // replace with the owner of the repository on Github containing the templates to deploy
+  },
+  {
+    "ParameterKey": "GithubAccessToken",
+    "ParameterValue": "6744689acdcf9e49342b25cbf0d037415b093d03"
+    // replace with a personal access token from your account on Github
+  },
+  {
+    "ParameterKey": "NotifyEmail",
+    "ParameterValue": "jddeka@amazon.com"
+    // replace with the email to be notified to seek approval to deploy changes
+  },
+  {
+    "ParameterKey": "PublicSubnetOneId",
+    "ParameterValue": "subnet-8d116de9"
+    // replace with a public subnet Id from one AZ
+  },
+  {
+    "ParameterKey": "PublicSubnetTwoId",
+    "ParameterValue": "subnet-4a49dc75"
+    // replace with a public subnet Id from a different AZ
+  }
+]
